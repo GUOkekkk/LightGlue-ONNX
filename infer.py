@@ -63,7 +63,7 @@ def infer(
         elif len(img_size) == 4:
             size0, size1 = img_size[::2]
         else:
-            raise ValueError("Invalid img_size. Please provide 1, 2, or 4 integers.")
+            raise ValueError("Invalid img_size. Please provide 2, or 4 integers.")
     else:
         size0, size1 = img_size, img_size
 
