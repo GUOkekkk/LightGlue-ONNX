@@ -32,7 +32,7 @@ def nms(
 
 def heatmap_to_keypoints(
     heatmap: torch.Tensor,
-    n: int | None = None,
+    n: int,
     window_size: int = 5,
     score_threshold: float = 0.0,
 ):
